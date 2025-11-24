@@ -7,7 +7,7 @@ services:
       - labnet
 
   service_b:
-    image: ghcr.io/ShineSujith/CICD2_lab6_service_b/service_a:latest
+    image: ghcr.io/ShineSujith/CICD2_lab6_service_b/service_b:latest
     env_file: ./.env
     depends_on:
       - service_a
